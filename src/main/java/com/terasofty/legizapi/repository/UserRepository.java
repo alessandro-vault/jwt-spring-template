@@ -1,0 +1,8 @@
+package com.terasofty.legizapi.repository;
+
+import com.terasofty.legizapi.domain.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+    User findByUsername(String username);
+}
