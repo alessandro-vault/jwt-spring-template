@@ -1,9 +1,9 @@
-package com.terasofty.legizapi.service;
+package com.alessandro54.springtemplate.service;
 
-import com.terasofty.legizapi.domain.Role;
-import com.terasofty.legizapi.domain.User;
-import com.terasofty.legizapi.repository.RoleRepository;
-import com.terasofty.legizapi.repository.UserRepository;
+import com.alessandro54.springtemplate.domain.Role;
+import com.alessandro54.springtemplate.repository.RoleRepository;
+import com.alessandro54.springtemplate.repository.UserRepository;
+import com.alessandro54.springtemplate.domain.User;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

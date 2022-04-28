@@ -1,8 +1,8 @@
-package com.terasofty.legizapi.api;
+package com.alessandro54.springtemplate.api;
 
-import com.terasofty.legizapi.domain.Role;
-import com.terasofty.legizapi.domain.User;
-import com.terasofty.legizapi.service.UserService;
+import com.alessandro54.springtemplate.domain.Role;
+import com.alessandro54.springtemplate.domain.User;
+import com.alessandro54.springtemplate.service.UserService;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

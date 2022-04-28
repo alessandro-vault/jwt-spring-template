@@ -8,13 +8,13 @@
         <version>2.6.7</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.terasofty</groupId>
-    <artifactId>legiz-api</artifactId>
+    <groupId>com.alessandro54</groupId>
+    <artifactId>jwt-spring-template</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>legiz-api</name>
-    <description>legiz-api</description>
+    <name>jwt-spring-template</name>
+    <description>jwt-spring-template</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>

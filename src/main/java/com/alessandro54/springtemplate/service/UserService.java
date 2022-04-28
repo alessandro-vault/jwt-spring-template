@@ -1,7 +1,7 @@
-package com.terasofty.legizapi.service;
+package com.alessandro54.springtemplate.service;
 
-import com.terasofty.legizapi.domain.Role;
-import com.terasofty.legizapi.domain.User;
+import com.alessandro54.springtemplate.domain.Role;
+import com.alessandro54.springtemplate.domain.User;
 
 import java.util.List;
 

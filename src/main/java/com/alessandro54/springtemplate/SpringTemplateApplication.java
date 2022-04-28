@@ -1,8 +1,8 @@
-package com.terasofty.legizapi;
+package com.alessandro54.springtemplate;
 
-import com.terasofty.legizapi.domain.Role;
-import com.terasofty.legizapi.domain.User;
-import com.terasofty.legizapi.service.UserService;
+import com.alessandro54.springtemplate.domain.Role;
+import com.alessandro54.springtemplate.service.UserService;
+import com.alessandro54.springtemplate.domain.User;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,10 +12,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import java.util.ArrayList;
 
 @SpringBootApplication
-public class LegizApiApplication {
+public class SpringTemplateApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LegizApiApplication.class, args);
+        SpringApplication.run(SpringTemplateApplication.class, args);
     }
 
     @Bean

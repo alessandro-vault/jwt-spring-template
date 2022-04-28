@@ -1,4 +1,4 @@
-package com.terasofty.legizapi.filter;
+package com.alessandro54.springtemplate.filter;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;

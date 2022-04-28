@@ -1,4 +1,4 @@
-package com.terasofty.legizapi.domain;
+package com.alessandro54.springtemplate.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,6 +1,6 @@
-package com.terasofty.legizapi.repository;
+package com.alessandro54.springtemplate.repository;
 
-import com.terasofty.legizapi.domain.User;
+import com.alessandro54.springtemplate.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

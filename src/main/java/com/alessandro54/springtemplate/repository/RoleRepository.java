@@ -1,6 +1,6 @@
-package com.terasofty.legizapi.repository;
+package com.alessandro54.springtemplate.repository;
 
-import com.terasofty.legizapi.domain.Role;
+import com.alessandro54.springtemplate.domain.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepository extends JpaRepository<Role, Long> {
