@@ -16,3 +16,21 @@ This API uses environment variables for local development, same for staging and 
 | **DATABASE_URL**      | Database URL for connection                   |
 | **DATABASE_USERNAME** | Database user eg. `postgres`                  |
 | **DATABASE_PASSWORD** | Secret for database access                    |
+ | **JWT_SECRET**        | Secret for jwt encoding                       |
+
+
+**For a secret generation run**
+```shell
+openssl rand -hex 32
+```
+
+### Usage
+
+Make a `POST` request to `/login` with this JSON format
+```json
+{
+ "username": ...,
+ "password:" ...
+}
+```
+You will receive a JWT Acess Token
