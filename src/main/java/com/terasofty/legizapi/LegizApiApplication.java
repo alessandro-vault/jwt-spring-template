@@ -33,6 +33,8 @@ public class LegizApiApplication {
             userService.saveUser(new User(null, "Alessandro", "hyper", "12345", new ArrayList<>()));
 
             userService.addRoleToUser("hyper", "ROLE_ADMIN");
+            userService.addRoleToUser("hyper", "ROLE_USER");
+            userService.addRoleToUser("john", "ROLE_USER");
         };
     }
 
