@@ -1,7 +1,7 @@
-package com.alessandro54.springtemplate.security;
+package com.alessandro54.jwtspring.security;
 
-import com.alessandro54.springtemplate.filter.CustomAuthenticationFilter;
-import com.alessandro54.springtemplate.filter.CustomAuthorizationFilter;
+import com.alessandro54.jwtspring.filter.CustomAuthenticationFilter;
+import com.alessandro54.jwtspring.filter.CustomAuthorizationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -35,9 +35,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         filter.setFilterProcessesUrl("/api/login");
         http.csrf().disable();
         http.sessionManagement().sessionCreationPolicy(STATELESS);
-        http.authorizeRequests().antMatchers("/api/login/**").permitAll();
+        http.authorizeRequests().antMatchers("/api/login/**", "/api/token/refresh/**").permitAll();
         http.authorizeRequests().antMatchers(GET, "/api/user/**").hasAnyAuthority("ROLE_USER");
-        http.authorizeRequests().antMatchers(GET, "/api/user/**").hasAnyAuthority("ROLE_ADMIN");
+        http.authorizeRequests().antMatchers(GET, "/api/user/create/**").hasAnyAuthority("ROLE_ADMIN");
         http.authorizeRequests().anyRequest().authenticated();
         http
                 .addFilterAt(filter, UsernamePasswordAuthenticationFilter.class)

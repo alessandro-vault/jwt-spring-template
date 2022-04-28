@@ -1,4 +1,4 @@
-package com.alessandro54.springtemplate.domain;
+package com.alessandro54.jwtspring.domain;
 
 
 import lombok.*;

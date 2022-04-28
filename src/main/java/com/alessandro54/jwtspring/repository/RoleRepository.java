@@ -1,6 +1,6 @@
-package com.alessandro54.springtemplate.repository;
+package com.alessandro54.jwtspring.repository;
 
-import com.alessandro54.springtemplate.domain.Role;
+import com.alessandro54.jwtspring.domain.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepository extends JpaRepository<Role, Long> {

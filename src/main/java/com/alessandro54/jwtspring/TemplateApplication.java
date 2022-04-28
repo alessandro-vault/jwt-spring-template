@@ -1,8 +1,8 @@
-package com.alessandro54.springtemplate;
+package com.alessandro54.jwtspring;
 
-import com.alessandro54.springtemplate.domain.Role;
-import com.alessandro54.springtemplate.service.UserService;
-import com.alessandro54.springtemplate.domain.User;
+import com.alessandro54.jwtspring.domain.Role;
+import com.alessandro54.jwtspring.service.UserService;
+import com.alessandro54.jwtspring.domain.User;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,10 +12,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import java.util.ArrayList;
 
 @SpringBootApplication
-public class SpringTemplateApplication {
+public class TemplateApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringTemplateApplication.class, args);
+        SpringApplication.run(TemplateApplication.class, args);
     }
 
     @Bean

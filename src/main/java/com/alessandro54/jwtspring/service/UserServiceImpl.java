@@ -1,9 +1,9 @@
-package com.alessandro54.springtemplate.service;
+package com.alessandro54.jwtspring.service;
 
-import com.alessandro54.springtemplate.domain.Role;
-import com.alessandro54.springtemplate.repository.RoleRepository;
-import com.alessandro54.springtemplate.repository.UserRepository;
-import com.alessandro54.springtemplate.domain.User;
+import com.alessandro54.jwtspring.domain.Role;
+import com.alessandro54.jwtspring.repository.RoleRepository;
+import com.alessandro54.jwtspring.repository.UserRepository;
+import com.alessandro54.jwtspring.domain.User;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

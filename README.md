@@ -1,10 +1,12 @@
-## Description
+## Spring API + JWT Auth Template
+
+Starter REST API with JWT Security
 
 ### Dependencies
 * Java OpenJDK 17
 * Postgres 12.9+
 
-Legiz API uses environment variables for local development, same for staging and deployment phase
+This API uses environment variables for local development, same for staging and deployment phase
 
 **This must be configured before running the app**
 
